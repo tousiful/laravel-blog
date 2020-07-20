@@ -13,17 +13,20 @@ This is a simple blog prject by using Php Laravel Framework for learning purpose
 
 <h3>Installation:</h3>
 
-<p>First you should import blog.sql database in your server</p>
+<p>First you can import blog.sql database in your server</p>
 
 <p>=> git clone https://github.com/tousiful/laravel-blog.git blog</p>
 <p>=> cd blog</p>
-<p>=> composer install --ignore-platform-reqs</p>
+<p>=> cp .env.example .env or Just replace the .env.example to .env and put your credentials here </p>
+<p>=> composer install or composer install --ignore-platform-reqs</p>
 <p>=> php artisan key:generate</p>
 <p>=> php artisan migrate</p>
 <p>=> php artisan db:seed</p>
 <p>=> You can get setting info by running command: php artisan db:seed --class=SettingsTableSeeder</p>
 
-## Project live link and login info
-url: 
-username: tausif@gmail.com password:password
+<h3>Project live link and login info:</h3>
+
+<p>url:<p/> 
+<p>Admin username: tausif@gmail.com and password:password<p>
+<p> normal user can create account and also get login</p>
 
