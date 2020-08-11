@@ -9,7 +9,7 @@
 
 ## About This Project
 
-This is a simple blog prject by using Php Laravel Framework for learning purpose.
+This is a simple blog project by using Php Laravel Framework.
 
 <h3>Installation:</h3>
 
